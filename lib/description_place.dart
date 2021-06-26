@@ -6,7 +6,7 @@ class DescriptionPlace extends StatelessWidget {
   int stars;
   String descriptionPlace;
   DescriptionPlace(this.namePlace, this.stars, this.descriptionPlace);
-  
+
   @override
   Widget build(BuildContext context) {
     final star_half = Container(
@@ -26,6 +26,7 @@ class DescriptionPlace extends StatelessWidget {
       child: new Text(
         descriptionPlace,
         style: const TextStyle(
+          fontFamily: "Poiret",
           fontSize: 16.0,
           fontWeight: FontWeight.bold,
           color: Color(0xFF56575a),
@@ -41,7 +42,10 @@ class DescriptionPlace extends StatelessWidget {
           margin: EdgeInsets.only(top: 320.0, left: 20.0, right: 20.0),
           child: Text(
             namePlace,
-            style: TextStyle(fontSize: 30.0, fontWeight: FontWeight.w900),
+            style: TextStyle(
+                fontFamily: "Poiret",
+                fontSize: 30.0,
+                fontWeight: FontWeight.w900),
             textAlign: TextAlign.left,
           ),
         ),
