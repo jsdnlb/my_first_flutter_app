@@ -74,7 +74,11 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+  assets:
+    - assets/img/
+  
   fonts: 
     - family: Poiret
       fonts: 
         - asset: fonts/PoiretOne-Regular.ttf
+    
