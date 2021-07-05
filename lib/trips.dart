@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'home.dart';
 import 'search.dart';
 import 'profile.dart';
+import 'navigation_bar_cupertino_ios.dart';
 
 class Trips extends StatefulWidget {
   @override
@@ -35,7 +36,8 @@ class _Trips extends State<Trips> {
       bottomNavigationBar: Theme(
           data: Theme.of(context)
               .copyWith(canvasColor: Colors.white, primaryColor: Colors.purple),
-          child: BottomNavigationBar(
+          child: NavifationBarCupertinoIos()
+          /* BottomNavigationBar(
             onTap: onTapTapped,
             currentIndex: indexTap,
             items: [
@@ -43,7 +45,8 @@ class _Trips extends State<Trips> {
               BottomNavigationBarItem(icon: Icon(Icons.search), label: ""),
               BottomNavigationBarItem(icon: Icon(Icons.person), label: "")
             ],
-          )),
+          ) */
+          ),
     );
   }
 }
