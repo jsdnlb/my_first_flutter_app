@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'home.dart';
-import 'search.dart';
+import '../../../Place/ui/screens/home.dart';
+import '../../../Place/ui/screens/search.dart';
 import 'profile.dart';
-import 'navigation_bar_cupertino_ios.dart';
+import '../../../navigation_bar_cupertino_ios.dart';
 
 class Trips extends StatefulWidget {
   @override

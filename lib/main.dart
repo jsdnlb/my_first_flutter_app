@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 // Import description_place
-import 'trips.dart';
+import 'User/ui/screens/trips.dart';
 
 void main() {
   runApp(MyApp());
